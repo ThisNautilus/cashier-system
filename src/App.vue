@@ -1,7 +1,11 @@
 <template>
   <div id="app">
+    <!-- 左侧导航栏 -->
     <leftNav></leftNav>
+    <!-- 操作区域 -->
     <div class="main">
+      <!-- 用于渲染路由匹配到的组件 -->
+      <!-- 此处匹配到的为Post.vue 加div进行布局 -->
       <router-view/>
     </div>
   </div>
